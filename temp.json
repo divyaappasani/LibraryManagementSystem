@@ -1,0 +1,176 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "members": [
+    {
+      "username": "divya",
+      "email": "divya@gmail.com",
+      "password": "123"
+    }
+  ],
+  "users": [
+    {
+      "username": "lucky",
+      "email": "loosy@gmail.com",
+      "password": "678",
+      "id": "RQyo_AY"
+    },
+    {
+      "username": "aki",
+      "email": "xxx@gmail.com",
+      "password": "123",
+      "id": "yXYXQ5R"
+    },
+    {
+      "username": "rithu",
+      "email": "rithu@xxx.com",
+      "password": "123",
+      "id": "So2L_AL"
+    },
+    {
+      "username": "anju",
+      "email": "anju@aaa.com",
+      "password": "123",
+      "id": "fZxXUmN"
+    },
+    {
+      "username": "sai",
+      "email": "saidivya@mmm.com",
+      "password": "123",
+      "id": "Sq4y-sb"
+    },
+    {
+      "username": "aaa",
+      "email": "fff@xx.com",
+      "password": "aaa",
+      "id": "XneNyH4"
+    },
+    {
+      "username": "qwerqwer",
+      "email": "qwerqwer",
+      "password": "qwerqwer",
+      "id": "RR2Qvur"
+    },
+    {
+      "username": "sridevi",
+      "email": "dev@sss.com",
+      "password": "123",
+      "id": "aYn67_W"
+    },
+    {
+      "username": "rosy",
+      "email": "rosy@xxx.com",
+      "password": "123",
+      "id": "jjJbyfY"
+    },
+    {
+      "username": "rao",
+      "email": "rao@aaa.com",
+      "password": "123",
+      "id": "p-DbZY1"
+    },
+    {
+      "username": "akhil",
+      "email": "akhil@xx.com",
+      "password": "123",
+      "id": "Aur2f5X"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "She: A History of Adventure",
+      "author": "H. Rider Haggard",
+      "genre": "Adventure",
+      "available_copies": 1,
+      "issued_to": [
+        "akhil"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Long Walk to Freedom",
+      "author": "Nelson Mandela",
+      "genre": "Biography",
+      "available_copies": null,
+      "issued_to": []
+    },
+    {
+      "id": 3,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "J. K. Rowling",
+      "genre": "Fantasy",
+      "available_copies": 4,
+      "issued_to": []
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "J. K. Rowling",
+      "genre": "Fantasy",
+      "available_copies": 0,
+      "issued_to": []
+    },
+    {
+      "id": 5,
+      "title": "Harry Potter and the Deathly Hallows",
+      "author": "J. K. Rowling",
+      "genre": "Fantasy",
+      "available_copies": 1,
+      "issued_to": []
+    },
+    {
+      "id": 6,
+      "title": "The Lion, the Witch and the Wardrobe",
+      "author": "C. S. Lewis",
+      "genre": "Fantasy",
+      "available_copies": 4,
+      "issued_to": [
+        "lucky"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Purpose Driven Life",
+      "author": "Rick Warren",
+      "genre": "Novel",
+      "available_copies": 3,
+      "issued_to": [
+        "lucky"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "The Eagle Has Landed (novel)",
+      "author": "Jack Higgins",
+      "genre": "Thriller",
+      "available_copies": 3,
+      "issued_to": [
+        "anju"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Black Beauty",
+      "author": "Anna Sewell",
+      "genre": "Children's literature",
+      "available_copies": 1,
+      "issued_to": []
+    }
+  ]
+}

@@ -1,16 +1,68 @@
+
 .App {
   text-align: center;
+  
 }
-
+html,
+body,#root {
+    width: 100%;
+    height: 100%;
+    background-image: url('C:/Users/appasanidivyat/reactex2/src/library1.jpg');
+    background-position: center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tablediv{
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.login-form{
+  margin: 30px;
+  padding:30px;
+  display: inline-flex;
+ background-color: rgb(145, 243, 243);
+ box-sizing: border-box;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.carousel{
+  width: 60%;
+  height: 50%;
+  margin-left: 13rem;
+  text-align: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.cart{
+  display: inline-flex;
+}
+.button{
+  display: inline-block;
+}
+footer{
+  position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+ 
+}
+.jumbo{
+  line-height: 0;
+  margin:0;
+}
+.jumbo h1{
+  color:rgb(189, 56, 89);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .App-header {
@@ -36,3 +88,135 @@
     transform: rotate(360deg);
   }
 }
+.minor{
+  background-color: red;
+}
+.major{
+  background-color: green;
+}
+.login {
+  width: 27em;
+  height: 40em;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  position: relative;
+  z-index: 99;
+}
+  .login .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
+    border-radius: 4px;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    padding: 17px 10px;
+  }
+ 
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90%;
+  background-color: #3498db;
+  width: 100%;
+  position: absolute;
+  right: -34%;
+  border-radius: 6px;
+  z-index: 1;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.281);
+}
+  .right-side .right {
+    right: -40%;
+    align-items: flex-end;}
+    .right-side .right :hover {
+      right: -45%;
+    }
+  
+    .right-side .left {
+    right: 40%;
+    align-items: flex-start;}
+    .right-side .left :hover {
+      right: 45%;
+    }
+  
+
+  .text {
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 3em;
+    margin-left: 3em;
+  }
+  .search{
+    text-align: center;
+  }
+  .logo-icon{
+    color:lightcoral
+  }
+ .home-container {
+    position: relative;
+    width: 100%;
+    padding: 0%;
+    max-height: 500px;
+  } 
+  .home-img{
+    height: 700px;
+    width: 100%;
+    
+  }
+  .centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    color: rgb(56, 92, 88);
+    transform: translate(-50%, -50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .top-left {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    color: rgb(221, 212, 196);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .top-left1 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: rgb(221, 212, 196);
+    font-family: cursive;
+  }
+  .top-left2 {
+    position: absolute;
+    top: 64px;
+    left: 16px;
+    color: rgb(95, 188, 211);
+    font-family: fantasy;
+  }
+  .home-container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity #f1f1f1*/
+    color: #dbdbdb;
+    width: 100%;
+    padding: 20px;
+    font-family: cursive;
+    text-align: left;
+    
+  }
+  
+
+
+
+

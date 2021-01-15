@@ -2,11 +2,58 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import App1 from './App';
 import reportWebVitals from './reportWebVitals';
+import { type } from 'jquery';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+
+
+const fetchValues=()=>{
+    return{
+      type:'FETCH_VALUE'
+    }
+}
+const increment=()=>{
+  return{
+    type:'INCREMENT'
+  }
+}
+const decrement=()=>{
+  return{
+    type:'DECREMENT'
+  }
+}
+const counterReducer=(state=0,action)=>{
+  switch(action.type){
+    case 'FETCH_VALUE':
+      return state;
+      break;
+    case 'INCREMENT':
+      return state+1;
+      break;
+    case 'DECREMENT':
+      return state-1;
+      break;
+    default:
+      return state;
+      break;    
+  }
+}
+
+let store=createStore(counterReducer);
+store.subscribe(()=>{console.log("redux values"+store.getState())})
+store.dispatch(fetchValues());
+store.dispatch(increment());
+store.dispatch(increment());
+store.dispatch(decrement());
 
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App/>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
